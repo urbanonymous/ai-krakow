@@ -21,7 +21,7 @@ const NextMeetup = () => {
             <div className="grid md:grid-cols-5 gap-8">
               <div className="md:col-span-3 text-black">
                 <h3 className="text-2xl font-bold text-[#F97316] mb-6">
-                  AI & Chill: First Gathering of the Curious
+                  AI Krakow: First Gathering of the Curious
                 </h3>
                 
                 <div className="space-y-4 mb-8">
@@ -34,7 +34,7 @@ const NextMeetup = () => {
                         <line x1="3" y1="10" x2="21" y2="10"></line>
                       </svg>
                     </div>
-                    <span className="text-lg">Saturday, May 10, 2025, 5:00 PM</span>
+                    <span className="text-lg">Saturday, Apr 26, 2025, 5:00 PM</span>
                   </div>
                   
                   <div className="flex items-center gap-3">
@@ -44,7 +44,7 @@ const NextMeetup = () => {
                         <circle cx="12" cy="10" r="3"></circle>
                       </svg>
                     </div>
-                    <span className="text-lg">Forum Przestrzenie, ul. Marii Konopnickiej 28, Kraków</span>
+                    <span className="text-lg">plac Emila Serkowskiego 9, 30-508 Kraków</span>
                   </div>
                   
                   <div className="flex items-center gap-3">
@@ -56,7 +56,7 @@ const NextMeetup = () => {
                         <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                       </svg>
                     </div>
-                    <span className="text-lg">You + ~20 AI-curious folks</span>
+                    <span className="text-lg">You + a few AI-curious folks</span>
                   </div>
                 </div>
                 
@@ -65,7 +65,7 @@ const NextMeetup = () => {
                 </p>
                 
                 <p className="text-sm text-black/70">
-                  Can't make it? Suggest a venue or date for the next one via email (<a href="mailto:hello@ai-krakow.com" className="text-[#F97316] hover:text-[#F97316]/80">hello@ai-krakow.com</a>).
+                  Can't make it? Suggest a venue or date for the next one via email (<a href="mailto:urbano@ai-krakow.com" className="text-[#F97316] hover:text-[#F97316]/80">urbano@ai-krakow.com</a>).
                 </p>
               </div>
               
@@ -73,10 +73,10 @@ const NextMeetup = () => {
                 <div className="bg-gray-200 rounded-lg p-6 h-full flex flex-col justify-center">
                   <h4 className="text-xl font-medium mb-4 text-black">RSVP</h4>
                   <p className="mb-6 text-black">
-                    Join our Telegram group to save your spot and stay updated.
+                    Join our WhatsApp group to save your spot and stay updated.
                   </p>
                   <a 
-                    href="https://t.me/+EXaAzkvvKh02YmQ0" 
+                    href="https://chat.whatsapp.com/C6fW7HApMXp1and12BT6AJ" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className={cn(
@@ -89,7 +89,7 @@ const NextMeetup = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                     </svg>
-                    Join Telegram Group
+                    Join WhatsApp Group
                   </a>
                 </div>
               </div>

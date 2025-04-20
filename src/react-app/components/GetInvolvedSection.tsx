@@ -9,21 +9,21 @@ const GetInvolvedSection = () => {
       title: "Venue Suggestions",
       description: "Know a great café or park? Help us discover unique spaces for our meetups.",
       cta: "Suggest a Spot",
-      action: () => window.location.href = "mailto:hello@ai-krakow.com?subject=Venue Suggestion"
+      action: () => window.location.href = "mailto:urbano@ai-krakow.com?subject=Venue Suggestion"
     },
     {
       icon: <MailPlus className="w-6 h-6 text-foreground" />,
       title: "Co-Organize",
-      description: "Low commitment, high impact. Help pick spots or spread the word about AI & Chill.",
+      description: "Low commitment, high impact. Help pick spots or spread the word about AI Krakow.",
       cta: "Join Team",
-      action: () => window.open("https://t.me/+EXaAzkvvKh02YmQ0", "_blank")
+      action: () => window.open("https://chat.whatsapp.com/C6fW7HApMXp1and12BT6AJ", "_blank")
     },
     {
       icon: <Share2 className="w-6 h-6 text-foreground" />,
       title: "Spread the Vibe",
-      description: "Invite AI-curious friends or share our community on social media with #AIChillKrakow.",
+      description: "Invite AI-curious friends or share our community on social media with #AIKrakow.",
       cta: "Share Now",
-      action: () => window.open("https://x.com/intent/tweet?text=Joining%20AI%20%26%20Chill%20Krak%C3%B3w%20-%20A%20casual%20meetup%20for%20AI%20enthusiasts!%20%23AIChillKrakow", "_blank")
+      action: () => window.open("https://x.com/intent/tweet?text=Joining%20AI%20Krakow%20-%20A%20casual%20meetup%20for%20AI%20enthusiasts!%20%23AIKrakow", "_blank")
     }
   ];
 

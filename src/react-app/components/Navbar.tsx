@@ -29,7 +29,6 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <a href="/" className="flex items-center space-x-2">
             <span className="text-xl font-display font-bold text-aikrakow-purple">AI Kraków</span>
-            <span className="text-sm font-medium text-muted-foreground hidden sm:inline-block">Community</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -38,7 +37,7 @@ const Navbar = () => {
             <a href="#next-meetup" className="text-sm font-medium hover:text-aikrakow-purple transition-colors">Next Meetup</a>
             <a href="#connect" className="text-sm font-medium hover:text-aikrakow-purple transition-colors">Connect</a>
             <a href="#get-involved" 
-              className="bg-aikrakow-purple hover:bg-aikrakow-purple/90 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
+              className="bg-aikrakow-purple hover:bg-aikrakow-purple/90 px-4 py-2 rounded-md text-sm font-medium transition-colors"
             >
               Join Us
             </a>
@@ -96,7 +95,7 @@ const Navbar = () => {
               </a>
               <a 
                 href="#get-involved" 
-                className="bg-aikrakow-purple hover:bg-aikrakow-purple/90 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors inline-block w-fit"
+                className="bg-aikrakow-purple hover:bg-aikrakow-purple/90 px-4 py-2 rounded-md text-sm font-medium transition-colors inline-block w-fit"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Join Us

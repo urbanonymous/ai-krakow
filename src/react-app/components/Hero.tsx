@@ -9,7 +9,6 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-mono tracking-tight mb-8">
             AI Kraków
             <br />
-            <span className="text-muted-foreground">Community</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl font-sans">
             A nomad-style meetup in Kraków for developers, makers, entrepreneurs, and curious minds to explore AI in a laid-back setting. No slides, no sponsors—just humans, ideas, and good vibes.
