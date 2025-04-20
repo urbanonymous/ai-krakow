@@ -10,7 +10,7 @@ const WhySection = () => {
             <div className="md:col-span-3">
               <h2 className="heading-lg mb-6">Why AI Kraków?</h2>
               <p className="text-lg mb-4">
-                AI is more than tech—it's a spark for creativity and connection. Kraków's vibrant mix of devs, makers, and dreamers makes it the perfect place to build a community around AI.
+                AI is more than tech, it's a spark for creativity and connection. Kraków's vibrant mix of devs, makers, and dreamers makes it the perfect place to build a community around AI.
               </p>
               <p className="text-lg mb-4">
                 Let's create a space where ideas flow, collabs happen, and AI feels human.

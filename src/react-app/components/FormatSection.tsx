@@ -63,7 +63,7 @@ const FormatSection = () => {
             </div>
             
             <p className="mt-8 text-muted-foreground">
-              We rotate venues—cafés, bars, parks, or co-working spaces—for a fresh, nomadic feel.
+              We rotate venues, cafés, bars, parks, or co-working spaces, for a fresh, nomadic feel.
             </p>
           </div>
         </div>

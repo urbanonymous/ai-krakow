@@ -70,7 +70,7 @@ const AboutSection = () => {
               </li>
             </ul>
             <p className="mt-6 text-muted-foreground">
-              No expertise needed—just bring your curiosity.
+              No expertise needed, just bring your curiosity.
             </p>
           </div>
         </div>

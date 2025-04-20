@@ -11,7 +11,7 @@ const Hero = () => {
             <br />
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl font-sans">
-            A nomad-style meetup in Kraków for developers, makers, entrepreneurs, and curious minds to explore AI in a laid-back setting. No slides, no sponsors—just humans, ideas, and good vibes.
+            A nomad-style meetup in Kraków for developers, makers, entrepreneurs, and curious minds to explore AI in a laid-back setting. No slides, no sponsors, just humans, ideas, and good vibes.
           </p>
           <div className="flex flex-col sm:flex-row gap-6">
             <a 
