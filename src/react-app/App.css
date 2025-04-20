@@ -1,7 +1,7 @@
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -16,9 +16,6 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
-.logo.cloudflare:hover {
-  filter: drop-shadow(0 0 2em #f6821faa);
 }
 
 @keyframes logo-spin {
@@ -42,4 +39,42 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Added custom styles for proper section visibility */
+.section-padding {
+  padding: 5rem 0;
+  position: relative;
+}
+
+.container-custom {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.heading-lg {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+/* Colors */
+:root {
+  --aikrakow-dark: #1A1F2C;
+  --aikrakow-light-purple: #9b87f5;
+  --aikrakow-purple: #8B5CF6;
+}
+
+.bg-aikrakow-dark {
+  background-color: var(--aikrakow-dark);
+}
+
+.text-aikrakow-light-purple {
+  color: var(--aikrakow-light-purple);
+}
+
+.bg-aikrakow-purple {
+  background-color: var(--aikrakow-purple);
 }
