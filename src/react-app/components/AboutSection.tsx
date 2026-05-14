@@ -7,7 +7,7 @@ const AboutSection = () => {
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="heading-lg mb-4">Welcome to <span className="text-[#F97316]">AI Kraków</span></h2>
           <p className="text-lg text-muted-foreground">
-            A relaxed gathering for the AI-curious in Kraków
+            A practical local guide to AI ideas, tools, and creative work in Kraków
           </p>
         </div>
         
@@ -21,23 +21,23 @@ const AboutSection = () => {
             <ul className="space-y-4">
               <li className="flex gap-3">
                 <div className="w-6 h-6 mt-1 flex-shrink-0 flex items-center justify-center rounded-full bg-[#F97316] text-white font-bold">✓</div>
-                <p>Share your AI projects or side hustles</p>
+                <p>Track useful AI tools, workflows, and examples</p>
               </li>
               <li className="flex gap-3">
                 <div className="w-6 h-6 mt-1 flex-shrink-0 flex items-center justify-center rounded-full bg-[#F97316] text-white font-bold">✓</div>
-                <p>Brainstorm startup ideas or creative AI uses</p>
+                <p>Explore startup ideas and creative AI use cases</p>
               </li>
               <li className="flex gap-3">
                 <div className="w-6 h-6 mt-1 flex-shrink-0 flex items-center justify-center rounded-full bg-[#F97316] text-white font-bold">✓</div>
-                <p>Learn from others, from coders to newbies</p>
+                <p>Make technical topics approachable for newcomers</p>
               </li>
               <li className="flex gap-3">
                 <div className="w-6 h-6 mt-1 flex-shrink-0 flex items-center justify-center rounded-full bg-[#F97316] text-white font-bold">✓</div>
-                <p>Connect over coffee, drinks, or a park picnic</p>
+                <p>Document what AI means for local work and culture</p>
               </li>
             </ul>
             <p className="mt-6 text-muted-foreground">
-              Think: AI + community + creativity in Kraków's coolest spots.
+              Think: AI + community knowledge + creative practice in Kraków.
             </p>
           </div>
           
@@ -70,7 +70,7 @@ const AboutSection = () => {
               </li>
             </ul>
             <p className="mt-6 text-muted-foreground">
-              No expertise needed, just bring your curiosity.
+              No expertise needed, just curiosity and a willingness to learn.
             </p>
           </div>
         </div>

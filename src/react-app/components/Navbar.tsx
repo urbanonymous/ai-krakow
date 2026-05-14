@@ -34,13 +34,8 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
             <a href="#about" className="text-sm font-medium hover:text-aikrakow-purple transition-colors">About</a>
-            <a href="#next-meetup" className="text-sm font-medium hover:text-aikrakow-purple transition-colors">Next Meetup</a>
+            <a href="#blog" className="text-sm font-medium hover:text-aikrakow-purple transition-colors">Blog</a>
             <a href="#connect" className="text-sm font-medium hover:text-aikrakow-purple transition-colors">Connect</a>
-            <a href="#get-involved" 
-              className="bg-aikrakow-purple hover:bg-aikrakow-purple/90 px-4 py-2 rounded-md text-sm font-medium transition-colors"
-            >
-              Join Us
-            </a>
           </nav>
 
           {/* Mobile menu button */}
@@ -80,11 +75,11 @@ const Navbar = () => {
                 About
               </a>
               <a 
-                href="#next-meetup" 
+                href="#blog" 
                 className="text-sm font-medium hover:text-aikrakow-purple transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Next Meetup
+                Blog
               </a>
               <a 
                 href="#connect" 
@@ -92,13 +87,6 @@ const Navbar = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Connect
-              </a>
-              <a 
-                href="#get-involved" 
-                className="bg-aikrakow-purple hover:bg-aikrakow-purple/90 px-4 py-2 rounded-md text-sm font-medium transition-colors inline-block w-fit"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Join Us
               </a>
             </div>
           </nav>

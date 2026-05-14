@@ -10,20 +10,20 @@ const WhySection = () => {
             <div className="md:col-span-3">
               <h2 className="heading-lg mb-6">Why AI Kraków?</h2>
               <p className="text-lg mb-4">
-                AI is more than tech, it's a spark for creativity and connection. Kraków's vibrant mix of devs, makers, and dreamers makes it the perfect place to build a community around AI.
+                AI is more than tech, it's a spark for creativity and better work. Kraków's vibrant mix of devs, makers, and dreamers makes it a useful lens for watching how AI changes everyday practice.
               </p>
               <p className="text-lg mb-4">
-                Let's create a space where ideas flow, collabs happen, and AI feels human.
+                This site keeps the signal high: practical context, clear language, and ideas that still feel human.
               </p>
               <div className="mt-8">
                 <a 
-                  href="#get-involved" 
+                  href="#blog" 
                   className={cn(
                     "bg-[#F97316] hover:bg-[#F97316]/90 text-white",
                     "px-6 py-3 rounded-md font-medium transition-all inline-flex items-center gap-2"
                   )}
                 >
-                  Get Involved
+                  Read Posts
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M5 12h14"></path>
                     <path d="m12 5 7 7-7 7"></path>
@@ -43,11 +43,11 @@ const WhySection = () => {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <div className="w-6 h-6 mt-0.5 flex-shrink-0 flex items-center justify-center rounded-full bg-aikrakow-orange text-white">✓</div>
-                    <p>Collaboration Over Competition: Building Together, Growing Together</p>
+                    <p>Practical Curiosity: Tools are interesting when they help people think and make</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-6 h-6 mt-0.5 flex-shrink-0 flex items-center justify-center rounded-full bg-aikrakow-orange text-white">✓</div>
-                    <p>Knowledge Sharing: Every Idea is a Seed for Innovation</p>
+                    <p>Knowledge Sharing: Clear notes make fast-moving AI easier to evaluate</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-6 h-6 mt-0.5 flex-shrink-0 flex items-center justify-center rounded-full bg-aikrakow-orange text-white">✓</div>
@@ -55,11 +55,11 @@ const WhySection = () => {
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-6 h-6 mt-0.5 flex-shrink-0 flex items-center justify-center rounded-full bg-aikrakow-orange text-white">✓</div>
-                    <p>Serious Impact, Relaxed Vibes: Where Fun Meets Function</p>
+                    <p>Serious Impact: Useful experiments matter more than hype</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-6 h-6 mt-0.5 flex-shrink-0 flex items-center justify-center rounded-full bg-aikrakow-orange text-white">✓</div>
-                    <p>Tech with Heart: AI Empowering Human Connections</p>
+                    <p>Tech with Heart: AI should extend human judgment, not replace it</p>
                   </li>
                 </ul>
               </div>
@@ -72,4 +72,3 @@ const WhySection = () => {
 };
 
 export default WhySection;
-

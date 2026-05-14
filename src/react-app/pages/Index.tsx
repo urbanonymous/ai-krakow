@@ -3,10 +3,9 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import AboutSection from "@/components/AboutSection";
 import FormatSection from "@/components/FormatSection";
-import NextMeetup from "@/components/NextMeetup";
+import BlogSection from "@/components/BlogSection";
 import ConnectSection from "@/components/ConnectSection";
 import WhySection from "@/components/WhySection";
-import GetInvolvedSection from "@/components/GetInvolvedSection";
 import Footer from "@/components/Footer";
 import { useEffect } from "react";
 
@@ -44,10 +43,9 @@ const Index = () => {
         <Hero />
         <AboutSection />
         <FormatSection />
-        <NextMeetup />
+        <BlogSection />
         <ConnectSection />
         <WhySection />
-        <GetInvolvedSection />
       </main>
       <Footer />
     </div>
