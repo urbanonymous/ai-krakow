@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
+import { navLinks } from '@/lib/site-links';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,9 +34,15 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <a href="#about" className="text-sm font-medium hover:text-aikrakow-purple transition-colors">About</a>
-            <a href="#blog" className="text-sm font-medium hover:text-aikrakow-purple transition-colors">Blog</a>
-            <a href="#connect" className="text-sm font-medium hover:text-aikrakow-purple transition-colors">Connect</a>
+            {navLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="text-sm font-medium hover:text-aikrakow-purple transition-colors"
+              >
+                {link.label}
+              </a>
+            ))}
           </nav>
 
           {/* Mobile menu button */}
@@ -67,27 +74,16 @@ const Navbar = () => {
         {isMobileMenuOpen && (
           <nav className="md:hidden mt-4 py-4 border-t">
             <div className="flex flex-col space-y-4">
-              <a 
-                href="#about" 
-                className="text-sm font-medium hover:text-aikrakow-purple transition-colors"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                About
-              </a>
-              <a 
-                href="#blog" 
-                className="text-sm font-medium hover:text-aikrakow-purple transition-colors"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Blog
-              </a>
-              <a 
-                href="#connect" 
-                className="text-sm font-medium hover:text-aikrakow-purple transition-colors"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Connect
-              </a>
+              {navLinks.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm font-medium hover:text-aikrakow-purple transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {link.label}
+                </a>
+              ))}
             </div>
           </nav>
         )}

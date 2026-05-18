@@ -1,12 +1,11 @@
 
-import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import AboutSection from "@/components/AboutSection";
 import FormatSection from "@/components/FormatSection";
 import BlogSection from "@/components/BlogSection";
 import ConnectSection from "@/components/ConnectSection";
 import WhySection from "@/components/WhySection";
-import Footer from "@/components/Footer";
+import PageLayout from "@/components/PageLayout";
 import { useEffect } from "react";
 
 const Index = () => {
@@ -19,9 +18,12 @@ const Index = () => {
       if (!anchor) return;
       
       const href = anchor.getAttribute('href');
-      if (!href || !href.startsWith('#')) return;
+      if (!href) return;
+
+      const hash = href.startsWith('/#') ? href.slice(1) : href;
+      if (!hash.startsWith('#')) return;
       
-      const targetElement = document.querySelector(href);
+      const targetElement = document.querySelector(hash);
       if (!targetElement) return;
       
       e.preventDefault();
@@ -37,18 +39,14 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <main className="flex-grow space-y-4 md:space-y-8">
-        <Hero />
-        <AboutSection />
-        <FormatSection />
-        <BlogSection />
-        <ConnectSection />
-        <WhySection />
-      </main>
-      <Footer />
-    </div>
+    <PageLayout mainClassName="flex-grow space-y-4 md:space-y-8">
+      <Hero />
+      <AboutSection />
+      <FormatSection />
+      <BlogSection />
+      <ConnectSection />
+      <WhySection />
+    </PageLayout>
   );
 };
 

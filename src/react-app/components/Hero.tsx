@@ -1,6 +1,3 @@
-
-import { cn } from '@/lib/utils';
-
 const Hero = () => {
   return (
     <section className="relative pt-32 pb-16 md:pt-40 md:pb-24 bg-background">
